@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.one {
+    background-color: black;
+}
+
+.three {
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+}

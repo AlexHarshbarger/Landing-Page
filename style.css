@@ -1,7 +1,3 @@
-body {
-    font-family: Roboto;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -112,13 +108,61 @@ a {
     border-radius: 15px;;
 }
 .three {
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+}
+
+.three-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.three-author {
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 30px;
 }
 
 .four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px
+}
 
+.action-box {
+    display: flex;
+    padding: 40px 75px;
+    background-color: #3882f6;
+    gap: 50px;
+    border-radius: 15px;
+}
+
+.action-signup {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+}
+
+.action-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.left-container {
+    color: white;
 }
 
 .footer {
-    background-color: black;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }

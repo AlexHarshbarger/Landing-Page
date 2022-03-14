@@ -1,3 +1,7 @@
+body {
+    font-family: Roboto;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -16,24 +20,6 @@
 .one-body {
     display: flex;
     justify-content: space-between;
-}
-
-.two {
-    flex: 1 1 auto;
-}
-
-.three {
-    background-color: black;
-    flex: 1 1 auto;
-}
-
-.four {
-    flex: 1 1 auto;
-}
-
-.footer {
-    background-color: black;
-    flex: 1 1 auto;
 }
 
 .header {
@@ -85,4 +71,54 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.two-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-text {
+    width: 130px;
+    text-align: center;
+    margin-top: 15px;;
+    margin-bottom: 30px;
+}
+
+.two-image {
+    width: 130px;
+    height: 130px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;;
+}
+.three {
+    background-color: black;
+}
+
+.four {
+
+}
+
+.footer {
+    background-color: black;
 }
